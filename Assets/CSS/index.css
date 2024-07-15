@@ -1,0 +1,45 @@
+/* Navbar Section Start */
+.navv {
+    color: #3384c2;
+}
+
+.navvv {
+    color: #3384c2;
+}
+
+.navvv:hover {
+    color: #8dc63f;
+}
+
+.butt {
+    border: 1px solid #0d6db7;
+    background-color: #0d6db7;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.but {
+    border: 1px solid #0d6db7;
+    background-color:
+        #8dc63f;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.but :hover {
+    background-color: #8dc63f;
+}
+
+/* Navbar Section End  */
+
+/* Main Section Start  */
+.circle-image{
+    height: 520px;
+    /* width: 100%; */
+    object-fit: contain;
+
+}
+
+/* Main Section End */
