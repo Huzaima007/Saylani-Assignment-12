@@ -35,11 +35,118 @@
 /* Navbar Section End  */
 
 /* Main Section Start  */
-.circle-image{
-    height: 520px;
-    /* width: 100%; */
-    object-fit: contain;
 
+.color {
+    color: #8dc63f;
 }
+
+.cursor {
+    color: #0d6db7;
+}
+
+.explore {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.back {
+    background-color: #eef8d1;
+    padding: 50px;
+    border: none;
+    text-align: center;
+}
+
+.input{
+    border: none;
+    padding: 20px;
+}
+
+.amount-section label {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+}
+
+.amount{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.large-button {
+    padding: 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.small-button {
+    padding: 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.quick-donate{
+    background-color: #8dc63f;
+}
+
+/* 
+
+
+
+
+
+.buttons-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.large-button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.large-button.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.small-button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.quick-donate {
+    background-color: #a8d147;
+    color: #fff;
+    grid-column: span 2;
+}
+
+button:hover {
+    opacity: 0.9;
+} */
 
 /* Main Section End */
