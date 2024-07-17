@@ -54,23 +54,24 @@
 .back {
     background-color: #eef8d1;
     padding: 50px;
-    border: none;
     text-align: center;
 }
 
-.input{
+.input {
     border: none;
     padding: 20px;
 }
 
-.amount-section label {
+
+
+.label {
     background-color: #333;
     color: #fff;
     padding: 20px;
     border-radius: 5px 0 0 5px;
 }
 
-.amount{
+.amount {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -98,55 +99,69 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.quick-donate{
-    background-color: #8dc63f;
-}
-
-/* 
-
-
-
-
-
-.buttons-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.large-button {
-    padding: 10px;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #f4f4f4;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.large-button.active {
-    background-color: #333;
+.large-button:hover {
+    background-color: black;
     color: #fff;
 }
 
-.small-button {
-    padding: 10px;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+.small-button:hover {
+    background-color: black;
+    color: #fff;
 }
 
 .quick-donate {
-    background-color: #a8d147;
-    color: #fff;
-    grid-column: span 2;
+    background-color: #8dc63f;
 }
 
-button:hover {
-    opacity: 0.9;
-} */
 
-/* Main Section End */
+/* What We Are Doing Section Start */
+
+.doing {
+    text-align: center;
+}
+
+.service-box {
+    background-color: #f0fcdb;
+    border-radius: 10px;
+    color: #424242;
+    cursor: default;
+    padding: 20px;
+    text-align: center;
+}
+
+.images {
+    border-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.fund_box {
+    /* border-radius: 10px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+    position: absolute;
+    width: 100%; */
+}
+
+.fund_box h5 {
+    color: #fff;
+}
+
+.button {
+    background-color: #8dc63f;
+    border: none;
+    font-size: 20px !important;
+    outline: none;
+    padding: 7px 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+/* What We Are Doing Section End */
