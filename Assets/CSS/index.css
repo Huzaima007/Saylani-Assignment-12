@@ -89,20 +89,20 @@
 .label {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 7px;
     border-radius: 5px 0 0 5px;
 }
 
 .amount {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 7px;
     border-radius: 0 5px 5px 0;
 }
 
 
 .large-button {
-    padding: 10px;
+    padding: 7px;
     font-size: 14px;
     border: none;
     border-radius: 5px;
@@ -112,7 +112,7 @@
 }
 
 .small-button {
-    padding: 10px;
+    padding: 7px;
     font-size: 14px;
     border: none;
     border-radius: 5px;
@@ -285,5 +285,22 @@
 /* Media Update End  */
 
 /* News Start  */
+
+.boder1{
+    /* border: 1px solid; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
+
+.styling{
+    font-size: 9px;
+    border: none;
+    color: white;
+    background-color: #8BC34A;
+    border-radius: 5px;
+}
 
 /* News End  */
