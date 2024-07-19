@@ -248,37 +248,38 @@
 
 /* Other Project Section End  */
 
- /* What They Say Section Start */
+/* What They Say Section Start */
 
-.testimonials{
+.testimonials {
     color: #8dc63f;
 }
 
 
-.radius{
+.radius {
     /* width: 70px; */
     height: 70px;
     border-radius: 50px;
     top: 20px;
 }
 
-.colorback{
+.colorback {
     background-color: #eeeeee;
     padding: 30px;
 }
 
-.colo{
+.colo {
     color: #0056b3;
 }
+
 /* What They Say Section End */
 /* Media Update Start */
-.botton{
+.botton {
     width: 50px;
     top: 125px;
     right: 130px;
 }
 
-.borde{
+.borde {
     border: none;
 }
 
@@ -286,7 +287,7 @@
 
 /* News Start  */
 
-.boder1{
+.boder1 {
     /* border: 1px solid; */
     border: none;
     padding: 10px 20px;
@@ -295,7 +296,7 @@
 }
 
 
-.styling{
+.styling {
     font-size: 9px;
     border: none;
     color: white;
@@ -304,3 +305,16 @@
 }
 
 /* News End  */
+/* Subs Start  */
+.coo{
+    background-color: #0d6db7;
+}
+
+.style {
+    background-color: white;
+    color: black;
+    border: none;
+    width: 500px;
+}
+
+/* Subs End  */
