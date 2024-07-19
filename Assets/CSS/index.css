@@ -11,12 +11,31 @@
     color: #8dc63f;
 }
 
+.nav-link {
+    font-size: 12px;
+}
+
+.navbarbef::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #8dc63f;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all .5s ease;
+    bottom: 0;
+    left: 0;
+}
+
 .butt {
     border: 1px solid #0d6db7;
     background-color: #0d6db7;
     color: white;
     padding: 8px;
     border-radius: 8px;
+    font-size: 12px;
+
 }
 
 .but {
@@ -26,6 +45,8 @@
     color: white;
     padding: 8px;
     border-radius: 8px;
+    font-size: 12px;
+
 }
 
 .but :hover {
@@ -59,7 +80,7 @@
 
 .input {
     border: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -67,20 +88,20 @@
 .label {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px 0 0 5px;
 }
 
 .amount {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 0 5px 5px 0;
 }
 
 
 .large-button {
-    padding: 20px;
+    padding: 10px;
     font-size: 14px;
     border: none;
     border-radius: 5px;
@@ -90,7 +111,7 @@
 }
 
 .small-button {
-    padding: 20px;
+    padding: 10px;
     font-size: 14px;
     border: none;
     border-radius: 5px;
@@ -109,7 +130,7 @@
     color: #fff;
 }
 
-.quick-donate {
+.quick-donate:hover {
     background-color: #8dc63f;
 }
 
@@ -162,15 +183,20 @@
 
 /* Other Project Section Start */
 
-.giving{
+.giving {
     width: 100%;
+    border-top-left-radius: 30px;
+
 }
 
 .green-box {
     background-color: #8BC34A;
     color: white;
-    /* padding: 0px; */
-    font-size: 1.2rem;
+    padding: 30px 80px;
+    font-size: 1.5rem;
+    width: 300px;
+    height: 220px;
+    border-top-left-radius: 30px;
 }
 
 .projects-section {
@@ -204,7 +230,7 @@
 }
 
 .stats-item img {
-    width: 50px;
+    width: 100px;
     height: auto;
 }
 
@@ -213,10 +239,17 @@
     margin: 10px 0;
 }
 
-.white{
+.white {
     background-color: #fff;
-    /* padding: 2px; */
-    border-radius: 30px;
+    border-radius: 80px;
+    padding: 10px;
 }
 
 /* Other Project Section End  */
+
+ /* What They Say Section Start */
+
+.testimonials{
+    color: #8dc63f;
+}
+ /* What They Say Section End */
