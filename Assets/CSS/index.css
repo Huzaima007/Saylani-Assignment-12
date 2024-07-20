@@ -15,18 +15,29 @@
     font-size: 12px;
 }
 
-.navbarbef::before:hover {
-    content: "";
-    position: absolute;
-    width: 100%;
+.navbar-nav .nav-link {
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
     height: 2px;
-    /* background-color: #8dc63f; */
-    border-bottom: 1px solid #8dc63f;
-    border-radius: 5px;
-    transform: scaleX(0);
-    transition: all .5s ease-in-out;
+    background: #8dc63f;
+    transition: width .3s, center .3s;
+    position: absolute;
+    left: 50%;
     bottom: 0;
+    transform: translateX(-50%);
+    transform-origin: center;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
     left: 0;
+    transform: translateX(0);
 }
 
 .butt {
@@ -81,9 +92,12 @@
 
 .input {
     border: none;
-    padding: 10px;
+    padding: 7px;
 }
 
+.form-control {
+    width: 120px;
+}
 
 
 .label {
@@ -256,10 +270,12 @@
 
 
 .radius {
-    /* width: 70px; */
     height: 70px;
     border-radius: 50px;
-    top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .colorback {
@@ -274,9 +290,15 @@
 /* What They Say Section End */
 /* Media Update Start */
 .botton {
-    width: 50px;
-    top: 125px;
-    right: 130px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+    margin: auto;
 }
 
 .borde {
@@ -306,15 +328,105 @@
 
 /* News End  */
 /* Subs Start  */
-.coo{
-    background-color: #0d6db7;
+
+.guide-container {
+    background-image: url("../Images/guide-back.png"
+        );
+    background-color: #1365a8;
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
 }
 
-.style {
-    background-color: white;
-    color: black;
-    border: none;
-    width: 500px;
+.coo {
+    padding: 0px 50px;
+}
+
+.subscribe-btn {
+    background-color: #fff !important;
+    color: #666 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    margin-top: 5px;
+    padding: 15px 30px !important;
+    width: 100% !important;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.baco {
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px !important;
+    border: 1px solid #d9d9d9;
+}
+.baco:focus{
+    border: 1px solid #d9d9d9;
+    border-color: transparent;
+}
+.colorr {
+    color: white;
 }
 
 /* Subs End  */
+/* Footer Start  */
+.footer {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+
+}
+
+.footer .social-icons a img {
+    width: 30px;
+}
+
+.footer .contact-info p {
+    margin: 0;
+}
+
+.facebook {
+    border-radius: 5px;
+}
+
+.x {
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    height: 30px;
+}
+
+.youtube {
+    border-radius: 5px;
+
+}
+
+.whatsapp {
+    border-radius: 5px;
+    background-color: green;
+}
+
+/* Footer End  */
